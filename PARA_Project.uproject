@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26",
+	"EngineAssociation": "4.25",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -15,8 +15,25 @@
 			"Name": "AppleARKit",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"IOS",
+				"IOS"
+			]
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
 				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Linux",
 				"Mac"
 			]
 		}
